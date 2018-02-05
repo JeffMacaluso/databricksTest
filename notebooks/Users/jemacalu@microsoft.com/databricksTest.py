@@ -1,14 +1,13 @@
 # Databricks notebook source
 import numpy as np
 import matplotlib.pyplot as plt
-%matplotlib inline
 
 X = np.random.randn(100)
 y = np.random.randn(100)
 
 fig, ax = plt.subplots()
 ax.scatter(X, y)
-display(fig)
+# display(fig)
 
 # COMMAND ----------
 
